@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'SwiftyDevice_Example' do
+  pod 'SwiftyDevice', :path => '../'
+
+  target 'SwiftyDevice_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.0.0'
+  pod 'Nimble', '~> 5.1.1'
+  end
+end
