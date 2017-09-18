@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyDevice (1.0.0)
+
+DEPENDENCIES:
+  - SwiftyDevice (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyDevice:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftyDevice: ae05cf343c1ea896c34a8b755751ba91d2bcbb62
+
+PODFILE CHECKSUM: 09dcfe6e49078ac243987204358799be4f30170a
+
+COCOAPODS: 1.3.1

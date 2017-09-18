@@ -1,22 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SwiftyDevice_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8G0-M0-HJ6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gs-JC-EXe">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="300" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="NIM-7C-ioL">
+                                                <rect key="frame" x="15" y="0.0" width="345" height="300"/>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="NIM-7C-ioL" firstAttribute="leading" secondItem="7gs-JC-EXe" secondAttribute="leading" constant="15" id="4Jq-ms-VnE"/>
+                                            <constraint firstItem="NIM-7C-ioL" firstAttribute="top" secondItem="7gs-JC-EXe" secondAttribute="top" id="8ZF-5S-Xqr"/>
+                                            <constraint firstAttribute="trailing" secondItem="NIM-7C-ioL" secondAttribute="trailing" constant="15" id="GIb-t8-34V"/>
+                                            <constraint firstAttribute="bottom" secondItem="NIM-7C-ioL" secondAttribute="bottom" id="gNZ-nh-MK3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="7gs-JC-EXe" firstAttribute="width" secondItem="8G0-M0-HJ6" secondAttribute="width" id="Mk1-fU-IGc"/>
+                                    <constraint firstItem="7gs-JC-EXe" firstAttribute="leading" secondItem="8G0-M0-HJ6" secondAttribute="leading" id="XT7-NN-aO9"/>
+                                    <constraint firstAttribute="trailing" secondItem="7gs-JC-EXe" secondAttribute="trailing" id="Ytx-fZ-KRn"/>
+                                    <constraint firstItem="7gs-JC-EXe" firstAttribute="top" secondItem="8G0-M0-HJ6" secondAttribute="top" id="dMb-Cv-Bj6"/>
+                                    <constraint firstAttribute="bottom" secondItem="7gs-JC-EXe" secondAttribute="bottom" id="vbw-PC-A5w"/>
+                                </constraints>
+                            </scrollView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xaN-ba-Uyo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0OV-RO-LGa">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xaN-ba-Uyo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="06L-fW-FqK"/>
+                            <constraint firstItem="8G0-M0-HJ6" firstAttribute="leading" secondItem="yCi-L4-nxg" secondAttribute="leading" id="25G-dm-vHU"/>
+                            <constraint firstAttribute="bottom" secondItem="8G0-M0-HJ6" secondAttribute="bottom" id="4Aj-YL-8YZ"/>
+                            <constraint firstItem="8G0-M0-HJ6" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="9SM-xi-v4r"/>
+                            <constraint firstItem="yCi-L4-nxg" firstAttribute="trailing" secondItem="8G0-M0-HJ6" secondAttribute="trailing" id="cz9-Ij-0Mb"/>
+                            <constraint firstItem="yCi-L4-nxg" firstAttribute="top" secondItem="xaN-ba-Uyo" secondAttribute="bottom" id="dVi-1G-PBe"/>
+                            <constraint firstAttribute="trailing" secondItem="xaN-ba-Uyo" secondAttribute="trailing" id="hoT-VH-Zn6"/>
+                            <constraint firstItem="xaN-ba-Uyo" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="n6S-rb-KXt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yCi-L4-nxg"/>
                     </view>
+                    <connections>
+                        <outlet property="stackView" destination="NIM-7C-ioL" id="PD8-yn-bLO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

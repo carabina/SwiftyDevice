@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleTV1,1</key>
+	<dict>
+		<key>family</key>
+		<string>Apple TV</string>
+		<key>intro</key>
+		<date>2007-01-09T09:41:00Z</date>
+	</dict>
+	<key>AppleTV2,1</key>
+	<dict>
+		<key>family</key>
+		<string>Apple TV 2nd Gen</string>
+		<key>intro</key>
+		<date>2010-09-01T09:41:00Z</date>
+	</dict>
+	<key>AppleTV3,1</key>
+	<dict>
+		<key>family</key>
+		<string>Apple TV 3rd Gen</string>
+		<key>intro</key>
+		<date>2012-03-07T09:41:00Z</date>
+	</dict>
+	<key>AppleTV3,2</key>
+	<dict>
+		<key>family</key>
+		<string>Apple TV 3rd Gen</string>
+		<key>intro</key>
+		<date>2013-01-29T09:41:00Z</date>
+	</dict>
+	<key>AppleTV5,3</key>
+	<dict>
+		<key>family</key>
+		<string>Apple TV 4th Gen</string>
+		<key>intro</key>
+		<date>2015-09-09T09:41:00Z</date>
+	</dict>
+	<key>AppleTV6,2</key>
+	<dict>
+		<key>family</key>
+		<string>Apple TV 4K</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>Pending</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 8</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>Watch1,1</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Standard 38mm</string>
+		<key>intro</key>
+		<date>2015-03-09T09:41:00Z</date>
+	</dict>
+	<key>Watch1,2</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Standard 42mm</string>
+		<key>intro</key>
+		<date>2015-03-09T09:41:00Z</date>
+	</dict>
+	<key>Watch2,3</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Series 2 38mm</string>
+		<key>intro</key>
+		<date>2016-09-07T09:41:00Z</date>
+	</dict>
+	<key>Watch2,4</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Series 2 42mm</string>
+		<key>intro</key>
+		<date>2016-09-07T09:41:00Z</date>
+	</dict>
+	<key>Watch2,6</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Series 1 38mm</string>
+		<key>intro</key>
+		<date>2016-09-07T09:41:00Z</date>
+	</dict>
+	<key>Watch2,7</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Series 1 42mm</string>
+		<key>intro</key>
+		<date>2016-09-07T09:41:00Z</date>
+	</dict>
+	<key>iPad1,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPad (Original)</string>
+		<key>intro</key>
+		<date>2010-01-27T09:41:00Z</date>
+	</dict>
+	<key>iPad2,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 2</string>
+		<key>intro</key>
+		<date>2011-03-02T09:41:00Z</date>
+	</dict>
+	<key>iPad2,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 2 3G (AT&amp;T)</string>
+		<key>intro</key>
+		<date>2011-03-02T09:41:00Z</date>
+	</dict>
+	<key>iPad2,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 2 3G (Verizon)</string>
+		<key>intro</key>
+		<date>2011-03-02T09:41:00Z</date>
+	</dict>
+	<key>iPad2,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 2</string>
+		<key>intro</key>
+		<date>2012-03-25T09:41:00Z</date>
+	</dict>
+	<key>iPad2,5</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2012-10-23T09:41:00Z</date>
+	</dict>
+	<key>iPad2,6</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2012-10-23T09:41:00Z</date>
+	</dict>
+	<key>iPad2,7</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini (Wi-Fi + Cellular MM)</string>
+		<key>intro</key>
+		<date>2012-10-23T09:41:00Z</date>
+	</dict>
+	<key>iPad3,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 3rd Gen</string>
+		<key>intro</key>
+		<date>2012-03-07T09:41:00Z</date>
+	</dict>
+	<key>iPad3,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 3rd Gen (Wi-Fi + Cellular VZ)</string>
+		<key>intro</key>
+		<date>2012-03-07T09:41:00Z</date>
+	</dict>
+	<key>iPad3,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 3rd Gen (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2012-03-07T09:41:00Z</date>
+	</dict>
+	<key>iPad3,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 4th Gen (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2012-10-23T09:41:00Z</date>
+	</dict>
+	<key>iPad3,5</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 4th Gen (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2012-10-23T09:41:00Z</date>
+	</dict>
+	<key>iPad3,6</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 4th Gen (Wi-Fi + Cellular MM)</string>
+		<key>intro</key>
+		<date>2012-10-23T09:41:00Z</date>
+	</dict>
+	<key>iPad4,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Air (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2013-10-22T09:41:00Z</date>
+	</dict>
+	<key>iPad4,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Air (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2013-10-22T09:41:00Z</date>
+	</dict>
+	<key>iPad4,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Air (Wi-Fi + Cellular CN)</string>
+		<key>intro</key>
+		<date>2014-04-01T09:41:00Z</date>
+	</dict>
+	<key>iPad4,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini Retina (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2013-10-22T09:41:00Z</date>
+	</dict>
+	<key>iPad4,5</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini Retina (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2013-10-22T09:41:00Z</date>
+	</dict>
+	<key>iPad4,6</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini Retina (Wi-Fi + Cellular CN)</string>
+		<key>intro</key>
+		<date>2014-04-01T09:41:00Z</date>
+	</dict>
+	<key>iPad4,7</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini 3 (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2014-10-16T09:41:00Z</date>
+	</dict>
+	<key>iPad4,8</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini 3 (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2014-10-16T09:41:00Z</date>
+	</dict>
+	<key>iPad4,9</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini 3 (Wi-Fi + Cellular, China)</string>
+		<key>intro</key>
+		<date>2014-10-16T09:41:00Z</date>
+	</dict>
+	<key>iPad5,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini 4 (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2015-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPad5,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPad mini 4 (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2015-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPad5,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Air 2 (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2014-10-16T09:41:00Z</date>
+	</dict>
+	<key>iPad5,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Air 2 (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2014-10-16T09:41:00Z</date>
+	</dict>
+	<key>iPad6,11</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 5th Gen (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2017-03-21T09:41:00Z</date>
+	</dict>
+	<key>iPad6,12</key>
+	<dict>
+		<key>family</key>
+		<string>iPad 5th Gen (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2017-03-21T09:41:00Z</date>
+	</dict>
+	<key>iPad6,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Pro 9.7" (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2016-03-21T09:41:00Z</date>
+	</dict>
+	<key>iPad6,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Pro 9.7" (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2016-03-21T09:41:00Z</date>
+	</dict>
+	<key>iPad6,7</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Pro (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2015-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPad6,8</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Pro (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2015-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPad7,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Pro 12.9" (2nd Gen - Wi-Fi)</string>
+		<key>intro</key>
+		<date>2017-06-05T09:41:00Z</date>
+	</dict>
+	<key>iPad7,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Pro 12.9" (2nd Gen - Wi-Fi+Cell)</string>
+		<key>intro</key>
+		<date>2017-06-05T09:41:00Z</date>
+	</dict>
+	<key>iPad7,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Pro 10.5" (Wi-Fi)</string>
+		<key>intro</key>
+		<date>2017-06-05T09:41:00Z</date>
+	</dict>
+	<key>iPad7,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPad Pro 10.5" (Wi-Fi + Cellular)</string>
+		<key>intro</key>
+		<date>2017-06-05T09:41:00Z</date>
+	</dict>
+	<key>iPhone1,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone (Original)</string>
+		<key>intro</key>
+		<date>2007-01-09T09:41:00Z</date>
+	</dict>
+	<key>iPhone1,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 3G</string>
+		<key>intro</key>
+		<date>2008-06-09T09:41:00Z</date>
+	</dict>
+	<key>iPhone2,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 3GS</string>
+		<key>intro</key>
+		<date>2009-06-08T09:41:00Z</date>
+	</dict>
+	<key>iPhone3,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 4</string>
+		<key>intro</key>
+		<date>2010-06-07T09:41:00Z</date>
+	</dict>
+	<key>iPhone3,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 4</string>
+		<key>intro</key>
+		<date>2011-10-04T09:41:00Z</date>
+	</dict>
+	<key>iPhone3,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 4 CDMA</string>
+		<key>intro</key>
+		<date>2011-01-11T09:41:00Z</date>
+	</dict>
+	<key>iPhone4,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 4S (4s)</string>
+		<key>intro</key>
+		<date>2011-10-04T09:41:00Z</date>
+	</dict>
+	<key>iPhone5,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 5</string>
+		<key>intro</key>
+		<date>2012-09-12T09:41:00Z</date>
+	</dict>
+	<key>iPhone5,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 5</string>
+		<key>intro</key>
+		<date>2012-09-12T09:41:00Z</date>
+	</dict>
+	<key>iPhone5,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 5c</string>
+		<key>intro</key>
+		<date>2013-09-10T09:41:00Z</date>
+	</dict>
+	<key>iPhone5,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 5c</string>
+		<key>intro</key>
+		<date>2013-09-10T09:41:00Z</date>
+	</dict>
+	<key>iPhone6,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 5s</string>
+		<key>intro</key>
+		<date>2013-09-10T09:41:00Z</date>
+	</dict>
+	<key>iPhone6,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 5s</string>
+		<key>intro</key>
+		<date>2013-09-10T09:41:00Z</date>
+	</dict>
+	<key>iPhone7,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 6 Plus</string>
+		<key>intro</key>
+		<date>2014-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPhone7,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 6</string>
+		<key>intro</key>
+		<date>2014-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPhone8,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 6s</string>
+		<key>intro</key>
+		<date>2015-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPhone8,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 6s Plus</string>
+		<key>intro</key>
+		<date>2015-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPhone8,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone SE</string>
+		<key>intro</key>
+		<date>2016-03-21T09:41:00Z</date>
+	</dict>
+	<key>iPhone9,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 7</string>
+		<key>intro</key>
+		<date>2016-09-07T09:41:00Z</date>
+	</dict>
+	<key>iPhone9,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 7 Plus</string>
+		<key>intro</key>
+		<date>2016-09-07T09:41:00Z</date>
+	</dict>
+	<key>iPhone9,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 7</string>
+		<key>intro</key>
+		<date>2016-09-07T09:41:00Z</date>
+	</dict>
+	<key>iPhone9,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 7 Plus</string>
+		<key>intro</key>
+		<date>2016-09-07T09:41:00Z</date>
+	</dict>
+	<key>iPod1,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPod Touch 1G</string>
+		<key>intro</key>
+		<date>2007-09-05T09:41:00Z</date>
+	</dict>
+	<key>iPod2,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPod Touch 2G</string>
+		<key>intro</key>
+		<date>2008-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPod3,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPod Touch 3G</string>
+		<key>intro</key>
+		<date>2009-09-09T09:41:00Z</date>
+	</dict>
+	<key>iPod4,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPod Touch 4G</string>
+		<key>intro</key>
+		<date>2010-09-01T09:41:00Z</date>
+	</dict>
+	<key>iPod5,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPod Touch 5G</string>
+		<key>intro</key>
+		<date>2012-09-12T09:41:00Z</date>
+	</dict>
+	<key>x86_64</key>
+	<dict>
+		<key>family</key>
+		<string>Simulator</string>
+	</dict>
+</dict>
+</plist>
