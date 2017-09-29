@@ -44,13 +44,6 @@
 		<key>intro</key>
 		<date>2017-09-12T09:41:00Z</date>
 	</dict>
-	<key>Pending</key>
-	<dict>
-		<key>family</key>
-		<string>iPhone 8</string>
-		<key>intro</key>
-		<date>2017-09-12T09:41:00Z</date>
-	</dict>
 	<key>Watch1,1</key>
 	<dict>
 		<key>family</key>
@@ -92,6 +85,34 @@
 		<string>Watch Series 1 42mm</string>
 		<key>intro</key>
 		<date>2016-09-07T09:41:00Z</date>
+	</dict>
+	<key>Watch3,1</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Series 3 38 mm</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>Watch3,2</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Series 3 42 mm</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>Watch3,3</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Series 3 38 mm</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>Watch3,4</key>
+	<dict>
+		<key>family</key>
+		<string>Watch Series 3 42 mm</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
 	</dict>
 	<key>iPad1,1</key>
 	<dict>
@@ -365,6 +386,48 @@
 		<string>iPhone 3G</string>
 		<key>intro</key>
 		<date>2008-06-09T09:41:00Z</date>
+	</dict>
+	<key>iPhone10,1</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 8</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>iPhone10,2</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 8 Plus</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>iPhone10,3</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone X</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>iPhone10,4</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 8</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>iPhone10,5</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone 8 Plus</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
+	</dict>
+	<key>iPhone10,6</key>
+	<dict>
+		<key>family</key>
+		<string>iPhone X</string>
+		<key>intro</key>
+		<date>2017-09-12T09:41:00Z</date>
 	</dict>
 	<key>iPhone2,1</key>
 	<dict>

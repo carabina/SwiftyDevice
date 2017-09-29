@@ -9,16 +9,18 @@ DeviceFamily | .rawValue
 `iPhone4CDMA` | iPhone 4 CDMA
 `iPhone4S4s` | iPhone 4S (4s)
 `iPhone5` | iPhone 5
-`iPhone5s` | iPhone 5s
 `iPhone5c` | iPhone 5c
-`iPhone6` | iPhone 6
+`iPhone5s` | iPhone 5s
 `iPhone6Plus` | iPhone 6 Plus
+`iPhone6` | iPhone 6
 `iPhone6s` | iPhone 6s
 `iPhone6sPlus` | iPhone 6s Plus
 `iPhoneSE` | iPhone SE
 `iPhone7` | iPhone 7
 `iPhone7Plus` | iPhone 7 Plus
+`iPhone8Plus` | iPhone 8 Plus
 `iPhone8` | iPhone 8
+`iPhoneX` | iPhone X
 `iPadOriginal` | iPad (Original)
 `iPad23GVerizon` | iPad 2 3G (Verizon)
 `iPad2` | iPad 2
@@ -62,10 +64,12 @@ DeviceFamily | .rawValue
 `appleTV4K` | Apple TV 4K
 `watchStandard42mm` | Watch Standard 42mm
 `watchStandard38mm` | Watch Standard 38mm
-`watchSeries138mm` | Watch Series 1 38mm
-`watchSeries238mm` | Watch Series 2 38mm
 `watchSeries242mm` | Watch Series 2 42mm
 `watchSeries142mm` | Watch Series 1 42mm
+`watchSeries138mm` | Watch Series 1 38mm
+`watchSeries238mm` | Watch Series 2 38mm
+`watchSeries338Mm` | Watch Series 3 38 mm
+`watchSeries342Mm` | Watch Series 3 42 mm
 `iPodTouch1G` | iPod Touch 1G
 `iPodTouch2G` | iPod Touch 2G
 `iPodTouch3G` | iPod Touch 3G

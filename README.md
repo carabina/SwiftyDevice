@@ -44,15 +44,15 @@ print("Device release date : \(device.releaseDate)") // Device release date : 06
 
 /// Or get information about another device with the codename
 
-let otherDevice = Device.device(with: "iPhone9,4") // otherDevice.family = DeviceFamily.iPhone7Plus
+let otherDevice = Device.device(with: "iPhone9,4") // otherDevice.family == DeviceFamily.iPhone7Plus
 ```
 
 See the list of supported devices : [Supported Devices](Devices.md)
 
 ## Development
 
-The `Devices.plist` and `DeviceFamily.swift` enum are generated automatically from another target in the project, `HardwareParser`.
-To add new devices in the project, simply run the `HardwareParser` scheme on the mac, and the two files will be updated with the data from www.everymac.com.
+The `Devices.plist`,  `DeviceFamily.swift` and `Devices.md` files are generated automatically from another target in the project, `HardwareParser`.
+To add new devices in the project, simply run the `HardwareParser` scheme on the mac, and the two files will be updated with the data from [www.everymac.com](https://www.everymac.com).
 
 ## Author
 

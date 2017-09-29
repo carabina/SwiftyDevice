@@ -2,7 +2,7 @@
 //  DeviceFamily.swift
 //  SwiftyDevice
 //
-//  Genereted by HardwareParser on 18/09/2017.
+//  Genereted by HardwareParser on 29/09/2017.
 //
 
 import Foundation
@@ -17,16 +17,18 @@ public enum DeviceFamily: String {
     case iPhone4CDMA = "iPhone 4 CDMA"
     case iPhone4S4s = "iPhone 4S (4s)"
     case iPhone5 = "iPhone 5"
-    case iPhone5s = "iPhone 5s"
     case iPhone5c = "iPhone 5c"
-    case iPhone6 = "iPhone 6"
+    case iPhone5s = "iPhone 5s"
     case iPhone6Plus = "iPhone 6 Plus"
+    case iPhone6 = "iPhone 6"
     case iPhone6s = "iPhone 6s"
     case iPhone6sPlus = "iPhone 6s Plus"
     case iPhoneSE = "iPhone SE"
     case iPhone7 = "iPhone 7"
     case iPhone7Plus = "iPhone 7 Plus"
+    case iPhone8Plus = "iPhone 8 Plus"
     case iPhone8 = "iPhone 8"
+    case iPhoneX = "iPhone X"
     
     case iPadOriginal = "iPad (Original)"
     case iPad23GVerizon = "iPad 2 3G (Verizon)"
@@ -73,10 +75,12 @@ public enum DeviceFamily: String {
     
     case watchStandard42mm = "Watch Standard 42mm"
     case watchStandard38mm = "Watch Standard 38mm"
-    case watchSeries138mm = "Watch Series 1 38mm"
-    case watchSeries238mm = "Watch Series 2 38mm"
     case watchSeries242mm = "Watch Series 2 42mm"
     case watchSeries142mm = "Watch Series 1 42mm"
+    case watchSeries138mm = "Watch Series 1 38mm"
+    case watchSeries238mm = "Watch Series 2 38mm"
+    case watchSeries338Mm = "Watch Series 3 38 mm"
+    case watchSeries342Mm = "Watch Series 3 42 mm"
     
     case iPodTouch1G = "iPod Touch 1G"
     case iPodTouch2G = "iPod Touch 2G"
